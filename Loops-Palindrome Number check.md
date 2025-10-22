@@ -25,17 +25,17 @@ temp=num
 
 while temp>0: 
 
-rev=(10*rev)+temp%10 
+    rev=(10*rev)+temp%10 
 
-temp//=10 
+    temp//=10 
 
-if rev==num: 
+    if rev==num: 
 
-print("The given number {} is a Palindrome".format(num)) 
+        print("The given number {} is a Palindrome".format(num)) 
 
-else: 
+    else: 
 
-print("The given number {} is not a palindrome".format(num))
+        print("The given number {} is not a palindrome".format(num))
 ```
 ## Output
 ![Screenshot 2025-05-02 142336](https://github.com/user-attachments/assets/6f8280be-42ce-4dd7-8994-26d3695d466e)
